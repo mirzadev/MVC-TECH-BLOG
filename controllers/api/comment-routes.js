@@ -52,23 +52,23 @@ router.put('/', withAuth, (req, res) => {
 
 
 // To delete any comment
-router.delete('/', withAuth, (req, res) => {
+router.delete('/:id', withAuth, (req, res) => {
     Comment.destroy({
         where: {
-            id: req.params.id
-        }        
-    })
-    .then(dbCommentData =>{
-        if(!dbCommentData){
+          id: req.params.id
+        }
+      })
+        .then(dbCommentData => {
+        if (!dbCommentData) {
             res.status(404).json({ message: 'No comment found with this id' });
             return;
         }
-        return res.json(dbCommentData);
-    })
-    .catch(err => {
+        res.json(dbCommentData);
+        })
+        .catch(err => {
         console.log(err);
         res.status(500).json(err);
-    });    
+        });
 });
 
 
