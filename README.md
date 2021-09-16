@@ -44,7 +44,7 @@
 ## Overview Links
 - [Application launched in Heroku](https://drive.google.com/file/d/10Lc6qOoBlbw_mf55MkFXn0_AhzZeAzGF/view)
 - [Application walkthrough](https://drive.google.com/file/d/1zgAiklLX9NFXMJyUUnUuYKepSbjlHH2n/view)
-- [GitHub Repository](https://github.com/mirzadev/MVC-TECH-BLOG)
+- [GitHub Repository](https://mirzadev.github.io/MVC-TECH-BLOG/)
 
 
 ## User Story
@@ -109,7 +109,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ## Usage
 💻   
   
-Run the following command at the root of your project and answer the prompted questions:
+Run the following command at the terminal:
 
 `npm run seeds`
   
