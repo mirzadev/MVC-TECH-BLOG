@@ -42,7 +42,7 @@
 
 
 ## Overview Links
-- [Application launched in Heroku](https://drive.google.com/file/d/10Lc6qOoBlbw_mf55MkFXn0_AhzZeAzGF/view)
+- [Application launched in Heroku](https://mvc-tech-blog-mirza.herokuapp.com/)
 - [Application walkthrough](https://drive.google.com/file/d/1zgAiklLX9NFXMJyUUnUuYKepSbjlHH2n/view)
 - [GitHub Repository](https://mirzadev.github.io/MVC-TECH-BLOG/)
 
